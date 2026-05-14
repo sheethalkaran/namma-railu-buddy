@@ -1,0 +1,108 @@
+<resources>
+    <string name="app_name">Namma Railu Buddy</string>
+    <string name="tagline">Coastal Karnataka Rail Info</string>
+    <string name="search_placeholder">Search station... e.g. Udupi, MAQ</string>
+    <string name="quick_actions">Quick Actions</string>
+    <string name="arrival_label">Arrival</string>
+    <string name="community_votes">Community Votes</string>
+    <string name="platform_votes_summary">Platform %1$d — %2$d people confirmed</string>
+    <string name="live_station">Live Station</string>
+    <string name="platform_ping">Platform Ping</string>
+    <string name="coach_map">Coach Map</string>
+    <string name="recent_stations">Recent Stations</string>
+    <string name="coastal_stations">Coastal Karnataka Stations</string>
+    <string name="search_results">Search Results</string>
+    <string name="settings">Settings</string>
+    <string name="appearance">Appearance</string>
+    <string name="dark_mode">Dark Mode</string>
+    <string name="dark_mode_subtitle">Switch between light and dark theme</string>
+    <string name="language">Language</string>
+    <string name="app_language">App Language</string>
+    <string name="currently">Currently: %s</string>
+    <string name="notifications">Notifications</string>
+    <string name="enable_notifications">Enable Notifications</string>
+    <string name="notifications_subtitle">Train alerts and platform pings</string>
+    <string name="about">About</string>
+    <string name="about_desc">Community-powered real-time rail info for Coastal Karnataka — from Mangaluru to Karwar.</string>
+
+    <!-- Alarm section -->
+    <string name="alarm_system">Train Alarm</string>
+    <string name="alarm_desc">Get notified when you are within 5 km of the station, and at the exact arrival time.</string>
+    <string name="select_alarm_notice_minutes">Alert me before arrival</string>
+    <string name="alarm_5km">Within 5 km of station</string>
+    <string name="alarm_exact">At exact arrival time</string>
+    <string name="active_alarms">Active Alarms</string>
+    <string name="no_active_alarms">No active alarms</string>
+    <string name="add_alarm">Add Alarm</string>
+    <string name="alarm_for_train">Alarm: %1$s @ %2$s</string>
+    <string name="train_at_station_msg">🚂 Train is now at the station! Board immediately.</string>
+    <string name="train_approaching_5km">Your train is approaching — you are within 5 km of %s. Head to the platform!</string>
+    <string name="trains_arriving_soon">Trains arriving soon at this station</string>
+    <string name="alarm_type">Alarm Type</string>
+    <string name="journey_alarm">Journey Alarm</string>
+    <string name="journey_alarm_desc">Alert when within 5 km of destination</string>
+    <string name="train_arrival">Train Arrival</string>
+    <string name="train_arrival_desc">Alert when train is at station</string>
+    <string name="alarm_over_msg">%s has departed. Alarm removed.</string>
+
+    <!-- Station / Train selection -->
+    <string name="select_station">Select Station</string>
+    <string name="choose_station">Choose station</string>
+    <string name="select_train">Select Train</string>
+    <string name="choose_train">Choose train</string>
+
+    <!-- Permissions -->
+    <string name="location_perm_required">Location Permission Required</string>
+    <string name="location_perm_desc">Needed to trigger the 5 km proximity alarm</string>
+    <string name="grant">Grant</string>
+
+    <!-- Alarm controls -->
+    <string name="set_alarm">Set Alarm</string>
+    <string name="stop_alarm">Stop Alarm</string>
+    <string name="alarm_active">Alarm Active</string>
+    <string name="alarm_active_desc">Running in background — even when app is closed</string>
+
+    <!-- Platform Ping -->
+    <string name="which_platform">Which platform is the train at?</string>
+    <string name="tap_platform">Tap the correct platform number</string>
+    <string name="confirm_platform">Confirm Platform %s</string>
+    <string name="not_sure">Not Sure</string>
+    <string name="thanks_points">Thank you! Your report helps everyone</string>
+    <string name="total_points">Your total: %1$d pts</string>
+    <string name="your_points_title">Your Points: %1$d</string>
+    <string name="no_platform_info">No platform info yet</string>
+    <string name="no_trains_found">No trains found at this station</string>
+    <string name="trains_at_station">Trains at %s</string>
+    <string name="ping_platform_btn">Ping Platform</string>
+    <string name="retry">Retry</string>
+    <string name="on_time">On Time</string>
+    <string name="delayed">Delayed</string>
+    <string name="warning">Warning</string>
+    <string name="unknown">Unknown</string>
+    <string name="confirmed">confirmed</string>
+    <string name="edit_report">Edit Report</string>
+    <string name="change_answer">Edit / Change Answer</string>
+    <string name="cancel">Cancel</string>
+    <string name="tap_edit_to_change">Your answer is confirmed. Tap Edit to change it.</string>
+    <string name="alarm_set_msg">Alarm set successfully!</string>
+
+    <!-- Stations -->
+    <string name="nearest_station">Nearest Station</string>
+    <string name="nearby_stations">Nearby Stations</string>
+
+    <!-- Coach -->
+    <string name="coach_position">Coach Position</string>
+    <string name="engine_front">Engine (Front)</string>
+    <string name="rear">Rear</string>
+    <string name="coach_legend">Coach Legend</string>
+    <string name="no_coach_data">Coach data not available for this train</string>
+
+    <!-- Language names -->
+    <string name="english">English</string>
+    <string name="kannada">Kannada</string>
+    <string name="hindi">Hindi</string>
+
+    <!-- Notification channels -->
+    <string name="channel_alarm_id">alarm_channel</string>
+    <string name="channel_alarm_name">Journey Alarms</string>
+</resources>

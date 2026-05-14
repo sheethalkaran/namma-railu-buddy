@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Train body -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M28,60 L28,78 Q28,82 32,82 L76,82 Q80,82 80,78 L80,60 L40,48 L68,48 Z"/>
+
+    <!-- Train front window -->
+    <path
+        android:fillColor="#5B2EFF"
+        android:pathData="M44,52 L64,52 L64,64 L44,64 Z"/>
+
+    <!-- Train side window -->
+    <path
+        android:fillColor="#5B2EFF"
+        android:pathData="M32,56 L41,56 L41,64 L32,64 Z"/>
+
+    <!-- Wheels left -->
+    <path
+        android:fillColor="#0B1F3A"
+        android:pathData="M36,82 m-8,0 a8,8 0 1,0 16,0 a8,8 0 1,0 -16,0"/>
+    <path
+        android:fillColor="#5B2EFF"
+        android:pathData="M36,82 m-4,0 a4,4 0 1,0 8,0 a4,4 0 1,0 -8,0"/>
+
+    <!-- Wheels right -->
+    <path
+        android:fillColor="#0B1F3A"
+        android:pathData="M72,82 m-8,0 a8,8 0 1,0 16,0 a8,8 0 1,0 -16,0"/>
+    <path
+        android:fillColor="#5B2EFF"
+        android:pathData="M72,82 m-4,0 a4,4 0 1,0 8,0 a4,4 0 1,0 -8,0"/>
+
+    <!-- Chimney -->
+    <path
+        android:fillColor="#5B2EFF"
+        android:pathData="M50,30 L50,48 L58,48 L58,30 Z"/>
+
+    <!-- Chimney top -->
+    <path
+        android:fillColor="#FFD700"
+        android:pathData="M46,26 Q46,30 50,30 L58,30 Q62,30 62,26 Q62,22 54,22 Q46,22 46,26 Z"/>
+
+    <!-- Headlight -->
+    <path
+        android:fillColor="#FFD700"
+        android:pathData="M80,64 m-6,0 a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0"/>
+
+    <!-- Track line -->
+    <path
+        android:fillColor="#5B2EFF"
+        android:pathData="M18,92 L90,92 L90,95 L18,95 Z"/>
+
+</vector>

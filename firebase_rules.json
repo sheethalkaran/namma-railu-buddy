@@ -1,0 +1,24 @@
+{
+  "rules": {
+    ".read": "auth != null",
+    ".write": "auth != null",
+    "stations": {
+      ".indexOn": ["code", "name"]
+    },
+    "trains": {
+      ".indexOn": ["number"]
+    },
+    "platformUpdates": {
+      ".indexOn": ["station_id", "train_id"]
+    },
+    "coachPosition": {
+      ".indexOn": ["train_id"]
+    },
+    "users": {
+      "$uid": {
+        ".read": "$uid === auth.uid",
+        ".write": "$uid === auth.uid"
+      }
+    }
+  }
+}

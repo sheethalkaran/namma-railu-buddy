@@ -1,0 +1,125 @@
+# Gradle files
+.gradle/
+build/
+gradle-app.setting
+gradlew
+gradlew.bat
+
+# IDE-specific files
+.idea/
+.vscode/
+*.iml
+*.iws
+*.ipr
+*.swp
+*.swo
+*~
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# IDE - VS Code
+.vscode/
+*.code-workspace
+
+# Build outputs
+bin/
+out/
+*.apk
+*.aar
+*.ap_
+*.dex
+
+# Local configuration file (sdk path, etc)
+local.properties
+*.properties
+!gradle.properties
+
+# Keystore files
+*.jks
+*.keystore
+*.p12
+
+# Firebase
+google-services.json
+firebase_seed.json
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+*.log
+*.log.*
+
+# Java/Kotlin
+*.class
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+*.exe
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+# Dependencies
+/.idea/libraries/
+/.gradle
+
+# Kotlin
+.kotlin/
+*.kotlin_module
+
+# KSP (Kotlin Symbol Processing)
+.ksp/
+
+# Lint
+lint-results*.xml
+
+# Navigation editor cache
+.navigation/
+
+# Android Profiler & Memory dumps
+*.prof
+*.hprof
+*.trace
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Debugging
+.vscode/launch.json
+.vscode/settings.json
+
+# Node modules (if using for build tools)
+node_modules/
+
+# Temporary files
+tmp/
+*.tmp
+*.bak
+*.swp
+*~
+
+# Build system
+.gradle
+gradlew.bat
+gradlew
+
+# Secrets & Tokens
+.secrets/
+*.token
+*.pem
+
+# Misc
+.env
+.env.local

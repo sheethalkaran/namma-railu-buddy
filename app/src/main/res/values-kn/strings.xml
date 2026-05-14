@@ -1,0 +1,107 @@
+<resources>
+    <string name="app_name">ನಮ್ಮ ರೈಲು ಬಡ್ಡಿ</string>
+    <string name="tagline">ಕರಾವಳಿ ಕರ್ನಾಟಕ ರೈಲು ಮಾಹಿತಿ</string>
+    <string name="search_placeholder">ನಿಲ್ದಾಣ ಹುಡುಕಿ... ಉದಾ: ಉಡುಪಿ, MAQ</string>
+    <string name="quick_actions">ತ್ವರಿತ ಕ್ರಮಗಳು</string>
+    <string name="live_station">ಲೈವ್ ಸ್ಟೇಷನ್</string>
+    <string name="platform_ping">ಪ್ಲಾಟ್‌ಫಾರ್ಮ್ ಪಿಂಗ್</string>
+    <string name="coach_map">ಕೋಚ್ ಮ್ಯಾಪ್</string>
+    <string name="recent_stations">ಇತ್ತೀಚಿನ ನಿಲ್ದಾಣಗಳು</string>
+    <string name="coastal_stations">ಕರಾವಳಿ ಕರ್ನಾಟಕದ ನಿಲ್ದಾಣಗಳು</string>
+    <string name="search_results">ಹುಡುಕಾಟದ ಫಲಿತಾಂಶಗಳು</string>
+    <string name="settings">ಸೆಟ್ಟಿಂಗ್ಸ್</string>
+    <string name="appearance">ವಿನ್ಯಾಸ</string>
+    <string name="dark_mode">ಡಾರ್ಕ್ ಮೋಡ್</string>
+    <string name="dark_mode_subtitle">ಲೈಟ್ ಮತ್ತು ಡಾರ್ಕ್ ಥೀಮ್ ನಡುವೆ ಬದಲಿಸಿ</string>
+    <string name="language">ಭಾಷೆ</string>
+    <string name="app_language">ಅಪ್ಲಿಕೇಶನ್ ಭಾಷೆ</string>
+    <string name="currently">ಪ್ರಸ್ತುತ: %s</string>
+    <string name="notifications">ಅಧಿಸೂಚನೆಗಳು</string>
+    <string name="enable_notifications">ಅಧಿಸೂಚನೆಗಳನ್ನು ಸಕ್ರಿಯಗೊಳಿಸಿ</string>
+    <string name="notifications_subtitle">ರೈಲು ಎಚ್ಚರಿಕೆಗಳು ಮತ್ತು ಪ್ಲಾಟ್‌ಫಾರ್ಮ್ ಪಿಂಗ್‌ಗಳು</string>
+    <string name="about">ನಮ್ಮ ಬಗ್ಗೆ</string>
+    <string name="about_desc">ಕರಾವಳಿ ಕರ್ನಾಟಕದ ನೈಜ-ಸಮಯದ ರೈಲು ಮಾಹಿತಿ - ಮಂಗಳೂರಿನಿಂದ ಕಾರವಾರದವರೆಗೆ.</string>
+
+    <!-- Alarm section -->
+    <string name="alarm_system">ರೈಲು ಅಲಾರಾಂ</string>
+    <string name="alarm_desc">ನೀವು ನಿಲ್ದಾಣದಿಂದ 5 ಕಿಮೀ ಒಳಗಿರುವಾಗ ಮತ್ತು ನಿಖರ ಆಗಮನ ಸಮಯದಲ್ಲಿ ಸೂಚನೆ ಪಡೆಯಿರಿ.</string>
+    <string name="select_alarm_notice_minutes">ಆಗಮನದ ಮೊದಲು ಎಚ್ಚರಿಕೆ ನೀಡಿ</string>
+    <string name="alarm_5km">ನಿಲ್ದಾಣದಿಂದ 5 ಕಿಮೀ ಒಳಗೆ</string>
+    <string name="alarm_exact">ನಿಖರ ಆಗಮನ ಸಮಯದಲ್ಲಿ</string>
+    <string name="active_alarms">ಸಕ್ರಿಯ ಅಲಾರಾಂಗಳು</string>
+    <string name="no_active_alarms">ಯಾವುದೇ ಸಕ್ರಿಯ ಅಲಾರಾಂ ಇಲ್ಲ</string>
+    <string name="add_alarm">ಅಲಾರಾಂ ಸೇರಿಸಿ</string>
+    <string name="alarm_for_train">ಅಲಾರಾಂ: %1$s @ %2$s</string>
+    <string name="train_at_station_msg">🚂 ರೈಲು ಈಗ ನಿಲ್ದಾಣದಲ್ಲಿದೆ! ತಕ್ಷಣ ಹತ್ತಿರಿ.</string>
+    <string name="train_approaching_5km">ನಿಮ್ಮ ರೈಲು ಬರುತ್ತಿದೆ — ನೀವು %s ದಿಂದ 5 ಕಿಮೀ ಒಳಗಿದ್ದೀರಿ. ಪ್ಲಾಟ್‌ಫಾರ್ಮ್‌ಗೆ ಹೋಗಿ!</string>
+    <string name="trains_arriving_soon">ಶೀಘ್ರದಲ್ಲಿ ಬರುವ ರೈಲುಗಳು</string>
+    <string name="alarm_type">ಅಲಾರಾಂ ಪ್ರಕಾರ</string>
+    <string name="journey_alarm">ಪ್ರಯಾಣ ಅಲಾರಾಂ</string>
+    <string name="journey_alarm_desc">ಗಮ್ಯಸ್ಥಾನದ 5 ಕಿಮೀ ಒಳಗೆ ಎಚ್ಚರಿಕೆ ನೀಡಿ</string>
+    <string name="train_arrival">ರೈಲು ಆಗಮನ</string>
+    <string name="train_arrival_desc">ರೈಲು ನಿಲ್ದಾಣದಲ್ಲಿರುವಾಗ ಎಚ್ಚರಿಕೆ ನೀಡಿ</string>
+    <string name="alarm_over_msg">%s ಹೊರಟು ಹೋಗಿದೆ. ಅಲಾರಾಂ ತೆಗೆಯಲಾಗಿದೆ.</string>
+
+    <!-- Station / Train selection -->
+    <string name="select_station">ನಿಲ್ದಾಣವನ್ನು ಆರಿಸಿ</string>
+    <string name="choose_station">ನಿಲ್ದಾಣವನ್ನು ಆಯ್ಕೆ ಮಾಡಿ</string>
+    <string name="select_train">ರೈಲನ್ನು ಆರಿಸಿ</string>
+    <string name="choose_train">ರೈಲನ್ನು ಆಯ್ಕೆ ಮಾಡಿ</string>
+
+    <!-- Permissions -->
+    <string name="location_perm_required">ಸ್ಥಳದ ಅನುಮತಿ ಅಗತ್ಯವಿದೆ</string>
+    <string name="location_perm_desc">5 ಕಿಮೀ ಪ್ರಾಕ್ಸಿಮಿಟಿ ಅಲಾರಾಂಗೆ ಅಗತ್ಯವಿದೆ</string>
+    <string name="grant">ಅನುಮತಿಸಿ</string>
+
+    <!-- Alarm controls -->
+    <string name="set_alarm">ಅಲಾರಾಂ ಹೊಂದಿಸಿ</string>
+    <string name="stop_alarm">ಅಲಾರಾಂ ನಿಲ್ಲಿಸಿ</string>
+    <string name="alarm_active">ಅಲಾರಾಂ ಸಕ್ರಿಯವಾಗಿದೆ</string>
+    <string name="alarm_active_desc">ಅಪ್ಲಿಕೇಶನ್ ಮುಚ್ಚಿದಾಗಲೂ ಹಿನ್ನೆಲೆಯಲ್ಲಿ ಚಾಲನೆಯಲ್ಲಿದೆ</string>
+
+    <!-- Platform Ping -->
+    <string name="which_platform">ರೈಲು ಯಾವ ಪ್ಲಾಟ್‌ಫಾರ್ಮ್‌ನಲ್ಲಿದೆ?</string>
+    <string name="tap_platform">ಸರಿಯಾದ ಪ್ಲಾಟ್‌ಫಾರ್ಮ್ ಸಂಖ್ಯೆಯನ್ನು ಒತ್ತಿರಿ</string>
+    <string name="confirm_platform">ಪ್ಲಾಟ್‌ಫಾರ್ಮ್ ದೃಢೀಕರಿಸಿ %s</string>
+    <string name="not_sure">ಖಚಿತವಿಲ್ಲ</string>
+    <string name="thanks_points">ಧನ್ಯವಾದಗಳು! ನಿಮ್ಮ ವರದಿ ಎಲ್ಲರಿಗೂ ಸಹಾಯ ಮಾಡುತ್ತದೆ 🙏</string>
+    <string name="total_points">ನಿಮ್ಮ ಒಟ್ಟು ಪಾಯಿಂಟ್‌ಗಳು: %1$d</string>
+    <string name="your_points_title">ನಿಮ್ಮ ಪಾಯಿಂಟ್‌ಗಳು: %1$d</string>
+    <string name="no_platform_info">ಇನ್ನೂ ಯಾವುದೇ ಪ್ಲಾಟ್‌ಫಾರ್ಮ್ ಮಾಹಿತಿ ಇಲ್ಲ</string>
+    <string name="no_trains_found">ಈ ನಿಲ್ದಾಣದಲ್ಲಿ ಯಾವುದೇ ರೈಲುಗಳು ಕಂಡುಬಂದಿಲ್ಲ</string>
+    <string name="trains_at_station">%s ನಿಲ್ದಾಣದಲ್ಲಿರುವ ರೈಲುಗಳು</string>
+    <string name="ping_platform_btn">ಪ್ಲಾಟ್‌ಫಾರ್ಮ್ ಪಿಂಗ್ ಮಾಡಿ</string>
+    <string name="retry">ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ</string>
+    <string name="on_time">ಸಮಯಕ್ಕೆ ಸರಿಯಾಗಿ</string>
+    <string name="delayed">ವಿಳಂಬ</string>
+    <string name="warning">ಎಚ್ಚರಿಕೆ</string>
+    <string name="unknown">ತಿಳಿದಿಲ್ಲ</string>
+    <string name="confirmed">ದೃಢೀಕರಿಸಲಾಗಿದೆ</string>
+    <string name="edit_report">ವರದಿಯನ್ನು ಎಡಿಟ್ ಮಾಡಿ</string>
+    <string name="change_answer">ಉತ್ತರವನ್ನು ಬದಲಿಸಿ</string>
+    <string name="alarm_set_msg">ಅಲಾರಾಂ ಯಶಸ್ವಿಯಾಗಿ ಹೊಂದಿಸಲಾಗಿದೆ!</string>
+
+    <!-- Stations -->
+    <string name="nearest_station">ಹತ್ತಿರದ ನಿಲ್ದಾಣ</string>
+    <string name="nearby_stations">ಸಮೀಪದ ನಿಲ್ದಾಣಗಳು</string>
+
+    <!-- Coach -->
+    <string name="coach_position">ಕೋಚ್ ಸ್ಥಾನ</string>
+    <string name="engine_front">ಎಂಜಿನ್ (ಮುಂಭಾಗ)</string>
+    <string name="rear">ಹಿಂಭಾಗ</string>
+    <string name="coach_legend">ಕೋಚ್ ಲೆಜೆಂಡ್</string>
+    <string name="no_coach_data">ಈ ರೈಲಿಗೆ ಕೋಚ್ ಮಾಹಿತಿ ಲಭ್ಯವಿಲ್ಲ</string>
+
+    <!-- Language names -->
+    <string name="english">English</string>
+    <string name="kannada">ಕನ್ನಡ</string>
+    <string name="hindi">ಹಿಂದಿ</string>
+
+    <!-- Notification channels -->
+    <string name="channel_alarm_id">alarm_channel</string>
+    <string name="channel_alarm_name">ಪ್ರಯಾಣ ಅಲಾರಾಂಗಳು</string>
+
+
+    <string name="cancel">ರದ್ದುಮಾಡಿ</string>
+    <string name="tap_edit_to_change">ನಿಮ್ಮ ಉತ್ತರ ದೃಢಪಡಿಸಲಾಗಿದೆ. ಬದಲಿಸಲು ಸಂಪಾದಿಸು ಒತ್ತಿರಿ.</string>
+</resources>

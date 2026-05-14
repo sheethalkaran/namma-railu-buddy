@@ -1,0 +1,106 @@
+<resources>
+    <string name="app_name">नम्मा रेलु बडी</string>
+    <string name="tagline">तटीय कर्नाटक रेल जानकारी</string>
+    <string name="search_placeholder">स्टेशन खोजें... जैसे: उडुपी, MAQ</string>
+    <string name="quick_actions">त्वरित कार्रवाई</string>
+    <string name="live_station">लाइव स्टेशन</string>
+    <string name="platform_ping">प्लेटफॉर्म पिंग</string>
+    <string name="coach_map">कोच मैप</string>
+    <string name="recent_stations">हाल के स्टेशन</string>
+    <string name="coastal_stations">तटीय कर्नाटक के स्टेशन</string>
+    <string name="search_results">खोज परिणाम</string>
+    <string name="settings">सेटिंग्स</string>
+    <string name="appearance">दिखावट</string>
+    <string name="dark_mode">डार्क मोड</string>
+    <string name="dark_mode_subtitle">लाइट और डार्क थीम के बीच बदलें</string>
+    <string name="language">भाषा</string>
+    <string name="app_language">ऐप भाषा</string>
+    <string name="currently">वर्तमान में: %s</string>
+    <string name="notifications">सूचनाएं</string>
+    <string name="enable_notifications">सूचनाएं सक्षम करें</string>
+    <string name="notifications_subtitle">ट्रेन अलर्ट और प्लेटफॉर्म पिंग</string>
+    <string name="about">हमारे बारे में</string>
+    <string name="about_desc">तटीय कर्नाटक के लिए समुदाय-संचालित वास्तविक समय रेल जानकारी - मंगलुरु से कारवार तक।</string>
+
+    <!-- Alarm section -->
+    <string name="alarm_system">ट्रेन अलार्म</string>
+    <string name="alarm_desc">जब आप स्टेशन से 5 किमी के भीतर हों और ठीक आगमन समय पर सूचना पाएं।</string>
+    <string name="select_alarm_notice_minutes">आगमन से पहले अलर्ट करें</string>
+    <string name="alarm_5km">स्टेशन से 5 किमी के भीतर</string>
+    <string name="alarm_exact">ठीक आगमन समय पर</string>
+    <string name="active_alarms">सक्रिय अलार्म</string>
+    <string name="no_active_alarms">कोई सक्रिय अलार्म नहीं</string>
+    <string name="add_alarm">अलार्म जोड़ें</string>
+    <string name="alarm_for_train">अलार्म: %1$s @ %2$s</string>
+    <string name="train_at_station_msg">🚂 ट्रेन अभी स्टेशन पर है! तुरंत बोर्ड करें।</string>
+    <string name="train_approaching_5km">आपकी ट्रेन आ रही है — आप %s से 5 किमी के भीतर हैं। प्लेटफॉर्म पर जाएं!</string>
+    <string name="trains_arriving_soon">जल्द आने वाली ट्रेनें</string>
+    <string name="alarm_type">अलार्म प्रकार</string>
+    <string name="journey_alarm">यात्रा अलार्म</string>
+    <string name="journey_alarm_desc">गंतव्य के 5 किमी के भीतर अलर्ट करें</string>
+    <string name="train_arrival">ट्रेन आगमन</string>
+    <string name="train_arrival_desc">ट्रेन स्टेशन पर होने पर अलर्ट करें</string>
+    <string name="alarm_over_msg">%s जा चुकी है। अलार्म हटाया गया।</string>
+
+    <!-- Station / Train selection -->
+    <string name="select_station">स्टेशन चुनें</string>
+    <string name="choose_station">स्टेशन का चयन करें</string>
+    <string name="select_train">ट्रेन चुनें</string>
+    <string name="choose_train">ट्रेन का चयन करें</string>
+
+    <!-- Permissions -->
+    <string name="location_perm_required">स्थान अनुमति आवश्यक</string>
+    <string name="location_perm_desc">5 किमी प्रॉक्सिमिटी अलार्म के लिए आवश्यक</string>
+    <string name="grant">अनुमति दें</string>
+
+    <!-- Alarm controls -->
+    <string name="set_alarm">अलार्म सेट करें</string>
+    <string name="stop_alarm">अलार्म बंद करें</string>
+    <string name="alarm_active">अलार्म सक्रिय है</string>
+    <string name="alarm_active_desc">ऐप बंद होने पर भी बैकग्राउंड में चल रहा है</string>
+
+    <!-- Platform Ping -->
+    <string name="which_platform">ट्रेन किस प्लेटफॉर्म पर है?</string>
+    <string name="tap_platform">सही प्लेटफॉर्म नंबर पर टैप करें</string>
+    <string name="confirm_platform">प्लेटफॉर्म की पुष्टि करें %s</string>
+    <string name="not_sure">निश्चित नहीं</string>
+    <string name="thanks_points">धन्यवाद! आपकी रिपोर्ट सबकी मदद करती है 🙏</string>
+    <string name="total_points">आपका कुल: %1$d अंक</string>
+    <string name="your_points_title">आपके अंक: %1$d</string>
+    <string name="no_platform_info">अभी तक कोई प्लेटफॉर्म जानकारी नहीं</string>
+    <string name="no_trains_found">इस स्टेशन पर कोई ट्रेन नहीं मिली</string>
+    <string name="trains_at_station">%s पर ट्रेनें</string>
+    <string name="ping_platform_btn">पिंग प्लेटफॉर्म</string>
+    <string name="retry">पुनः प्रयास करें</string>
+    <string name="on_time">समय पर</string>
+    <string name="delayed">देरी</string>
+    <string name="warning">चेतावनी</string>
+    <string name="unknown">अज्ञात</string>
+    <string name="confirmed">पुष्टि की गई</string>
+    <string name="edit_report">रिपोर्ट संपादित करें</string>
+    <string name="change_answer">उत्तर बदलें</string>
+    <string name="alarm_set_msg">अलार्म सफलतापूर्वक सेट किया गया!</string>
+
+    <!-- Stations -->
+    <string name="nearest_station">निकटतम स्टेशन</string>
+    <string name="nearby_stations">नजदीकी स्टेशन</string>
+
+    <!-- Coach -->
+    <string name="coach_position">कोच की स्थिति</string>
+    <string name="engine_front">इंजन (आगे)</string>
+    <string name="rear">पीछे</string>
+    <string name="coach_legend">कोच लेजेंड</string>
+    <string name="no_coach_data">इस ट्रेन के लिए कोच डेटा उपलब्ध नहीं है</string>
+
+    <!-- Language names -->
+    <string name="english">English</string>
+    <string name="kannada">ಕನ್ನಡ (Kannada)</string>
+    <string name="hindi">हिंदी</string>
+
+    <!-- Notification channels -->
+    <string name="channel_alarm_id">alarm_channel</string>
+    <string name="channel_alarm_name">यात्रा अलार्म</string>
+
+    <string name="cancel">रद्द करें</string>
+    <string name="tap_edit_to_change">आपका उत्तर पुष्टि हो गया है। बदलने के लिए संपादित करें पर टैप करें।</string>
+</resources>
