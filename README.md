@@ -53,8 +53,8 @@ NammaRailuBuddy/
 ### 1. Clone the Repository
 
 ```bash
-git clone <repository-url>
-cd NammaRailuBuddy
+git clone https://github.com/sheethalkaran/namma-railu-buddy.git
+cd namma-railu-buddy
 ```
 
 ### 2. Configure Local Properties
