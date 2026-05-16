@@ -17,17 +17,13 @@ Namma Railu Buddy is a mobile platform that enables users to access live train i
 
 ## Screenshots
 
-[Add screenshots showing: login screen, train search interface, platform updates, and coach position tracker]
-
-## Screenshots
-
 <p align="center">
         <img src="screenshots/home_screen.jpeg" width="250" alt="Home Screen"/>
-        <img src="screenshots/live_station.png" width="250" alt="Live Station"/>
-        <img src="screenshots/platform_ping.png" width="250" alt="Platform Ping"/>
-        <img src="screenshots/coach.png" width="250" alt="Coach Position"/>
-        <img src="screenshots/alarm.png" width="250" alt="Alarm"/>
-        <img src="screenshots/settings.png" width="250" alt="Settings"/>
+        <img src="screenshots/live_station.jpeg" width="250" alt="Live Station"/>
+        <img src="screenshots/platform_ping.jpeg" width="250" alt="Platform Ping"/>
+        <img src="screenshots/coach.jpeg" width="250" alt="Coach Position"/>
+        <img src="screenshots/alarm.jpeg" width="250" alt="Alarm"/>
+        <img src="screenshots/settings.jpeg" width="250" alt="Settings"/>
 </p>
 
 ## Tech Stack
