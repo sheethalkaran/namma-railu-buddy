@@ -27,6 +27,8 @@ The application enables users to track train schedules, monitor live platform up
 ## Tech Stack
 
 - Language: Kotlin
+- Architecture: MVVM (Model-View-ViewModel)
+- UI Framework: Jetpack Compose
 - Build System: Gradle
 - Database: Firebase Realtime Database
 - Authentication: Firebase Authentication
