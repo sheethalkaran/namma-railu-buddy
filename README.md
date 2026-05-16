@@ -1,10 +1,8 @@
 # Namma Railu Buddy
 
-A comprehensive Android application designed to provide real-time railway information, platform updates, and coach position tracking for Indian Railways.
+Namma Railu Buddy is an Android application that provides comprehensive real-time railway information for Indian Railways.
 
-## Overview
-
-Namma Railu Buddy is a mobile platform that enables users to access live train information, monitor platform updates, track coach positions, and receive real-time notifications about train movements and platform changes.
+The application enables users to track train schedules, monitor live platform updates, and access detailed coach position information. Built with modern Android technologies, this application offers a seamless experience for railway passengers who need reliable and up-to-date information about train movements and platform changes.
 
 ## Features
 
