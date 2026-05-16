@@ -15,6 +15,21 @@ Namma Railu Buddy is a mobile platform that enables users to access live train i
 - User authentication and personalized dashboard
 - Search and filter capabilities for trains and stations
 
+## Screenshots
+
+[Add screenshots showing: login screen, train search interface, platform updates, and coach position tracker]
+
+## Screenshots
+
+<p align="center">
+        <img src="screenshots/home_screen.jpeg" width="250" alt="Home Screen"/>
+        <img src="screenshots/live_station.png" width="250" alt="Live Station"/>
+        <img src="screenshots/platform_ping.png" width="250" alt="Platform Ping"/>
+        <img src="screenshots/coach.png" width="250" alt="Coach Position"/>
+        <img src="screenshots/alarm.png" width="250" alt="Alarm"/>
+        <img src="screenshots/settings.png" width="250" alt="Settings"/>
+</p>
+
 ## Tech Stack
 
 - Language: Kotlin
@@ -67,9 +82,10 @@ sdk.dir=/path/to/android/sdk
 
 ### 3. Firebase Configuration
 
+- Generate `google-services.json` from Firebase Console (Project Settings → Download google-services.json)
 - Place `google-services.json` in the `app/` directory
-- Ensure Firebase Realtime Database is initialized in your Firebase project
-- Configure security rules for database access
+- Initialize Firebase Realtime Database in your Firebase project
+- Security rules are pre-configured in `firebase_rules.json`
 
 ### 4. Build the Project
 
@@ -80,8 +96,19 @@ sdk.dir=/path/to/android/sdk
 ### 5. Run the Application
 
 ```bash
+# Launch Android emulator first, then:
 ./gradlew installDebug
+
+# Or run on connected device:
+./gradlew installDebug -Pandroid.install.force=true
 ```
+
+## How to Use
+
+1. **Search Trains** - Enter station name or train number to find trains
+2. **View Live Updates** - Check platform changes and real-time train status
+3. **Track Coach Position** - Select a train to see coach-wise seating/positioning
+4. **View Station Details** - Browse available stations and their information
 
 ## Database
 
@@ -92,6 +119,18 @@ Firebase Realtime Database collections:
 - `coachPosition` - Coach positions (indexed by train_id)
 - `users` - User profile data (isolated per user)
 
+
+## Future Improvements
+
+- Ticket booking integration
+- Push notifications for train delays
+- Seat availability tracking
+- Multi-language support
+- Offline mode with cached data
+
+## License
+
+MIT License - See LICENSE file for details
 
 ---
 
